@@ -1,0 +1,41 @@
+/* universel selectore */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* spared styles */
+
+.container{
+     max-width: 1280px;
+    margin: auto;
+ 
+}
+
+/* Navber section style  */
+.Nav-container{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 15px;
+}
+.Nav-features{
+    display: flex;
+}
+.Nav-features li{
+    list-style: none;
+    margin: 10px;
+}
+.nav_btn{
+    padding: 5px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    width: 150px;
+}
+
+.nav_btn:hover{
+    box-shadow: 1px 3px 5px rgb(117, 110, 110);
+    transition: 0.4s;
+}
