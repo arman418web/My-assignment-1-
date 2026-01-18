@@ -12,6 +12,9 @@
     margin: auto;
  
 }
+.display_flex{
+    display: flex;
+}
 
 /* Navber section style  */
 .Nav-container{
@@ -20,7 +23,7 @@
     margin-top: 15px;
 }
 .Nav-features{
-    display: flex;
+    display:flex;                                                                            
 }
 .Nav-features li{
     list-style: none;
@@ -39,3 +42,98 @@
     box-shadow: 1px 3px 5px rgb(117, 110, 110);
     transition: 0.4s;
 }
+/* banner section style */
+.banner_container{
+  
+background-image:url(./assets/hero-bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+width: 100%;
+height: 700px;
+text-align: center;
+padding: 100px;
+align-items: center;
+
+   
+}
+.live_action-btn{
+    margin-bottom: 20px;
+   width: 200px;
+   height: 30px;
+   border-radius: 50px;
+   color: #30B868;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+}
+.action-btn{
+    width: 7px;
+    height: 7px;
+    background-color: #30B868;
+    border-radius: 100%;
+   box-shadow: 0px 0px 16px 4px #30B868;
+   border: none;
+
+
+} 
+.live_action-btn:hover{
+    box-shadow: 3px 3px 5px rgb(8, 8, 8);
+
+}
+
+
+.banner_title1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+.banner_title2{
+ font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New';
+    color:#30B868 ;
+    margin-bottom: 20px;
+
+}
+.banner_pragraph{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman';
+}
+/* .banner_button{
+    display: flex;
+} */
+.banner_button1{
+ 
+    background-color: #30B868;
+    display: flex; 
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+
+
+    
+}
+.banner_button2{
+     background-color: #30B868;
+    display: flex; 
+    align-items: center;
+    padding-left: 5px;
+    width: 150px;
+    height: 36px;
+    background: none;
+    color: aliceblue;
+justify-content: center;
+    
+}
+ .btn_container{
+align-items: center;
+justify-content: center;
+gap: 20px;
+ }
