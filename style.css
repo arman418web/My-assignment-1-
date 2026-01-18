@@ -16,7 +16,7 @@
     display: flex;
 }
 
-/* Navber section style  */
+/* Navber section style started */
 .Nav-container{
     display:flex;
     justify-content:space-around;
@@ -41,8 +41,11 @@
 .nav_btn:hover{
     box-shadow: 1px 3px 5px rgb(117, 110, 110);
     transition: 0.4s;
+
 }
-/* banner section style */
+/* navber styel end */
+
+/* banner section style started */
 .banner_container{
   
 background-image:url(./assets/hero-bg.png);
@@ -106,16 +109,26 @@ align-items: center;
     margin-bottom: 20px;
     font-family: 'Times New Roman';
 }
-/* .banner_button{
-    display: flex;
-} */
+ .btn_container{
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-top: 30px;
+ }
+
 .banner_button1{
  
     background-color: #30B868;
     display: flex; 
     align-items: center;
-    padding: 5px;
+    padding: 15px;
     gap: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    height: 33px;
+    
 
 
     
@@ -124,16 +137,24 @@ align-items: center;
      background-color: #30B868;
     display: flex; 
     align-items: center;
-    padding-left: 5px;
+    gap: 5px;
     width: 150px;
-    height: 36px;
+    height: 33px;
     background: none;
-    color: aliceblue;
+    color: rgb(240, 240, 240);
 justify-content: center;
+border: none;
+border: 1px solid white;
+border-radius: 2px;
     
 }
- .btn_container{
-align-items: center;
-justify-content: center;
-gap: 20px;
- }
+.banner_button1:hover{
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+.banner_button2:hover{
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+    transition: 0.4s;
+}
+/* banner section style end */
