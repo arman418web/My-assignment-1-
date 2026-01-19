@@ -249,7 +249,7 @@
 }
 
 .brain_container {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 30px;
 }
@@ -258,16 +258,60 @@
     margin-bottom: 20px;
     color: #30B868;
 }
-.brain-ChekCircle{
+
+.brain-ChekCircle {
     margin-top: 20px;
 
-    
+
 }
-.chekchircle-display_flex{
+
+.chekchircle-display_flex {
     display: flex;
     gap: 5px;
 }
-.disgin-title{
+
+.disgin-title {
     font-size: 48px;
     font-weight: bold;
+}
+
+/* brain section style ended */
+/* early acces section style started */
+.main-container {
+    background-color: rgba(247, 246, 242, 1);
+    text-align: center;
+    margin-top: 50px;
+    height: 350px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 120px;
+
+
+}
+
+
+.acces-button {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: #30B868;
+    border: none;
+    border-radius: 3px;
+
+}
+.acces-button:hover{
+    box-shadow: 1px 2px 3px rgb(10, 10, 10);
+    transition: 0.5s;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
