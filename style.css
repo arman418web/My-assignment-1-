@@ -189,6 +189,7 @@
 }
 
 /* banner section style end */
+
 /* note section style started */
 .note_sec_title {
     text-align: center;
@@ -276,6 +277,7 @@
 }
 
 /* brain section style ended */
+
 /* early acces section style started */
 .main-container {
     background-color: rgba(247, 246, 242, 1);
@@ -295,15 +297,17 @@
 .acces-button {
     display: flex;
     gap: 5px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     align-items: center;
     background-color: #30B868;
     border: none;
     border-radius: 3px;
+    color: white;
 
 }
-.acces-button:hover{
+
+.acces-button:hover {
     box-shadow: 1px 2px 3px rgb(10, 10, 10);
     transition: 0.5s;
 }
@@ -315,26 +319,33 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /* early acces section style ended  */
+
 /* fotter section style started */
-.footer-section{
+.footer-section {
     background-color: rgb(2, 11, 59);
-   height: 200px;
-   padding: 50px;
-   margin-top: 50px;
+    height: 200px;
+    padding: 50px;
+    margin-top: 50px;
 }
-.fotter-contaner{
+
+.fotter-contaner {
     display: flex;
     justify-content: space-between;
     color: white;
-   
+
 }
-.Social-icon{
+
+.Social-icon {
     display: flex;
     gap: 17px;
     margin-top: 10px;
 }
-.copy-right{
+
+.copy-right {
     text-align: center;
     padding-top: 20px;
 }
+
+/* footer section ended */
