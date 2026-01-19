@@ -315,3 +315,26 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* early acces section style ended  */
+/* fotter section style started */
+.footer-section{
+    background-color: rgb(2, 11, 59);
+   height: 200px;
+   padding: 50px;
+   margin-top: 50px;
+}
+.fotter-contaner{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+}
+.Social-icon{
+    display: flex;
+    gap: 17px;
+    margin-top: 10px;
+}
+.copy-right{
+    text-align: center;
+    padding-top: 20px;
+}
