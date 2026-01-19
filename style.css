@@ -15,6 +15,15 @@
 .display_flex{
     display: flex;
 }
+.font_size{
+    font-size: 14px;
+    color: rgba(98, 115, 130, 1);
+    margin-top: 15px;
+}
+.box_shadow{
+    box-shadow:0px 0px 10px gray;
+    padding:15px;
+}
 
 /* Navber section style started */
 .Nav-container{
@@ -158,3 +167,56 @@ border-radius: 2px;
     transition: 0.4s;
 }
 /* banner section style end */
+/* note section style started */
+.note_sec_title{
+    text-align: center;
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    
+
+
+}
+.img-1{
+     background-color:rgba(249, 85, 85, 1);
+    border-radius: 100%;
+    border: none;
+   padding: 5px; 
+   margin-top: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(249, 85, 85, 1);
+
+}
+.img-2{
+     background-color: rgba(249, 85, 85, 1);
+    border-radius: 100%;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+     margin-bottom: 15px;
+     box-shadow: 0px 0px 10px rgba(249, 85, 85, 1);
+}
+.img-3{
+     background-color:rgba(249, 85, 85, 1);
+    border-radius: 100%;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+     margin-bottom: 15px;
+     box-shadow: 0px 0px 10px rgba(249, 85, 85, 1);
+}
+.img-4{
+    background-color:rgba(249, 85, 85, 1);
+    border-radius: 100%;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom:15px;
+    box-shadow: 0px 0px 10px rgba(249, 85, 85, 1);
+}
